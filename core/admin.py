@@ -1,6 +1,7 @@
 """
 Django admin customization.
 """
+
 from core.models import Autor, Categoria, Editora, Livro, User, Compra, ItensCompra
 from django.contrib import admin
 from django.contrib.auth.admin import UserAdmin as BaseUserAdmin
